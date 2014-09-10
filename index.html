@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Шик</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/non-responsive.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link href="css/countdown.css" rel="stylesheet" />
+    <!-- <link href="css/animate.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header id="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <figure id="logo">
+                        <div class="col-xs-2">
+                            <a href="#header" class="logo"></a>
+                        </div>
+                    </figure>
+                    <div class="centre-section">
+                        <div class="col-xs-6">
+                            <div class="phone">
+                                <span>987-13-29</span>
+                            </div>
+                            <div class="order-call">
+                                <a id="order-call-link" class="" data-target="#order-call" data-toggle="modal" href="#">Заказать обратный звонок</a>
+                            </div>
+                            <nav class="header-content-nav">
+                                <ul>
+                                    <li class="acting"><a href="#header" class="top-link">О фирме</a></li>
+                                    <li><a href="#our-work" class="top-link">Портфолио</a></li>
+                                    <li><a href="#reviews" class="top-link">Отзывы</a></li>
+                                    <li><a href="#last-news" class="top-link">Новости</a></li>
+                                    <li><a href="#contacts" class="top-link">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <div class="col-xs-4">
+                            <div class="header-content-buttons">
+                                <a href="#">Строительство</a>
+                                <a href="#">Ремонт</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-slider">
+            <div id="slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="i/slide-1.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <div class="title wow bounceInDown animated">
+                                 Строительная
+                                <br>
+                                компания "ШиК" 
+                            </div>
+                            <div class="description">
+                                 Строительство и ремонт в Санкт-Петербурге
+                                <br>
+                                и Ленинградской области
+                                <b>
+                                на высшем уровне
+                                <br>
+                                даже в мелочах
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="i/slide-2.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <div class="title">
+                                 Более 1000 уникальных решений
+                                <br>
+                                в строительстве и архитектуре 
+                            </div>
+                            <div class="description">
+                                 460 наших клиентов успешно ведут бизнес в созданном нами пространстве.
+                                <br>
+                                617 счастливых семей живут в построенных нами домах. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="i/slide-3.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <div class="title">
+                                 Мы раскроем Вашу
+                                <br>
+                                индивидуальность 
+                            </div>
+                            <div class="description">
+                                Работая в сфере строительства много лет, мы научились учитывать
+                                <br>
+                                в дизайне и архитектуре особенности характера наших клиентов
+                                <br>
+                                и их взгляды на жизнь. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="i/slide-4.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <div class="title">
+                                Гибкая ситема цен
+                            </div>
+                            <div class="description">
+                                Разнообразные пакеты услуг на все случаи жизни, акции и скидки.
+                                <br>
+                                С нами комфорт доступен каждому! 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="i/slide-5.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <div class="title">
+                                Оптимальный подбор
+                                <br>
+                                материалов 
+                            </div>
+                            <div class="description">
+                                <b>
+                                    Подбор, закупку и доставку строительных материалов
+                                    <br>
+                                    мы берем на себя.
+                                </b>
+                                    Наши специалисты работают более чем
+                                    <br>
+                                    с 2.3 миллионами наименований материалов и смогут подобрать
+                                    <br>
+                                    для Вас самые лучшие. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#slider" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#slider" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="our-services">
+        <div class="container">
+            <div class="our-services-wrap wow fadeInUp animated">
+                <div class="our-services-title">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-push-4 col-xs-offset-2">
+                            <h2>Мы предоставляем услуги</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-services-destinations">
+                    <div class="row">
+                        <div class="col-xs-5 col-xs-push-1">
+                            <div class="constraction wow slideInLeft animated">
+                                <div class="inner-content">
+                                    <div class="inner-info">
+                                        <h3>Строительство</h3>
+                                        <p>Строительство и проектирование
+                                        жилых, промышленных, производственных
+                                        и коммерческих зданий, строительство
+                                        ангаров, загородных домов.</p>
+                                    </div>
+                                    <div class="inner-link"><a href="#">Узнать больше <span>></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 col-xs-push-1">
+                            <div class="repair wow slideInRight animated">
+                                <div class="inner-content">
+                                    <div class="inner-info">
+                                        <h3>Ремонт</h3>
+                                        <p>Дизайн и ремонт жилых и помещений
+                                        для бизнеса: квартир и домов,
+                                        офисов, магазинов, производ- ственных
+                                        и складских помещений.</p>
+                                    </div>
+                                    <div class="inner-link"><a href="#">Узнать больше <span>></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-advantages ">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="reliabilit wow bounceInDown animated">
+                                <div class="reability-wrap o-a-sec">
+                                    <img src="i/reliability-icon.png" alt="">
+                                    <div class="our-advantages-content">
+                                        <h4>Надёжность</h4>
+                                        <p>Гарантия до 10 лет
+                                        на все работы</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="professionalis wow bounceInDown animated">
+                                <div class="professionalism-wrap o-a-sec">
+                                    <img src="i/professionalism-icon.png" alt="">
+                                    <div class="our-advantages-content">
+                                        <h4>Профессионализм</h4>
+                                        <p>Специалисты высокого уровня
+                                        со стажем более 5 лет</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="punctuality wow bounceInDown animated">
+                                <div class="punctuality-wrap o-a-sec">
+                                    <img src="i/punctuality-icon.png" alt="">
+                                    <div class="our-advantages-content">
+                                        <h4>Пунктуальность</h4>
+                                        <p>Четкое выполнение сроков,
+                                        зафиксированных в договоре</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="availability wow bounceInDown animated">
+                                <div class="availability-wrap o-a-sec">
+                                    <img src="i/availability-icon.png" alt="">
+                                    <div class="our-advantages-content">
+                                        <h4>Доступность</h4>
+                                        <p>Широкий ценовой диапазон на
+                                        работы любого уровня сложности</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="opinions-shares">
+        <div class="container">
+            <div class="opinions-shares-wrap wow fadeInUp animated">
+                <div class="opinions-shares-title">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-push-4 col-xs-offset-2">
+                            <h2>Горячие акции</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinions-shares-content wow fadeInUp animated">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="repair-with-discount osc-sec">
+                                <img src="i/repair-with-discount-img.jpg" alt="">
+                                <div class="countdown-block">
+                                    <div class="countdown-title">
+                                        <a id="order-call-link-rep-disc" class="" data-target="#order-call" data-toggle="modal" href="#">Ремонт со скидкой 10%</a>
+                                    </div>
+                                    <div>cрок действия истекает через:</div>
+                                    <div id="countdown" class="countdown"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="repair-back-payments osc-sec">
+                                <img src="i/repair-back-payments-img.jpg" alt="">
+                                <div class="countdown-block">
+                                    <div class="countdown-title">
+                                        <a id="order-call-link-rep-pay" class="" data-target="#order-call" data-toggle="modal" href="#">Ремонт в рассрочку</a>
+                                    </div>
+                                    <div>cрок действия истекает через:</div>
+                                    <div id="countdown2" class="countdown"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class=" osc-sec">
+                                <img src="i/construction-with-discount-img.jpg" alt="">
+                                <div class="countdown-block">
+                                    <div class="countdown-title">
+                                        <a id="order-call-link-con-disc" class="" data-target="#order-call" data-toggle="modal" href="#">Строительство со скидкой 10%</a>
+                                    </div>
+                                    <div>cрок действия истекает через:</div>
+                                    <div id="countdown3" class="countdown"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="construction-back-payments osc-sec">
+                                <img src="i/construction-back-payments-img.jpg" alt="">
+                                <div class="countdown-block">
+                                    <div class="countdown-title">
+                                        <a id="order-call-link-back-pay" class="" data-target="#order-call" data-toggle="modal" href="#">Строительство в рассрочку</a>
+                                    </div>
+                                    <div>cрок действия истекает через:</div>
+                                    <div id="countdown4" class="countdown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="our-work">
+                <div class="our-work-wrap wow fadeInUp animated">
+                    <div class="our-work-title">
+                        <div class="row">
+                            <div class="col-xs-6 col-xs-push-4 col-xs-offset-2">
+                                <h2>Примеры наших работ</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-work-slider wow fadeInUp animated">
+                <div class="container">
+                    <div class="our-work-slider-wrap">
+                        <ul class="bxslider-sec">
+                            <li>
+                                <div class="v-section">
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-1-img-big.jpg"><img src="i/works-1-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Реконструкция загородного дома
+                                        под минигостинницу (Отрадное)</p>
+                                    </div>
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-2-img-big.jpg"><img src="i/works-2-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Ремонт офиса бизнес класса (СПб)</p>
+                                    </div>
+                                </div>
+                                <div class="v-section">
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-3-img-big.jpg"><img src="i/works-3-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Реконструкция частного дома (Коммунар)</p>
+                                    </div>
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-4-img-big.jpg"><img src="i/works-4-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Ремонт и реконструкция кафе (СПб)</p>
+                                    </div>
+                                </div>
+                                <div class="v-section">
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-5-img-big.jpg"><img src="i/works-5-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Реконструкция частного дома (Коммунар)</p>
+                                    </div>
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-6-img-big.jpg"><img src="i/works-6-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Ремонт и реконструкция кафе (СПб)</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="v-section">
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-1-img-big.jpg"><img src="i/works-1-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Реконструкция загородного дома
+                                        под минигостинницу (Отрадное)</p>
+                                    </div>
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-2-img-big.jpg"><img src="i/works-2-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Ремонт офиса бизнес класса (СПб)</p>
+                                    </div>
+                                </div>
+                                <div class="v-section">
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-3-img-big.jpg"><img src="i/works-3-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Реконструкция частного дома (Коммунар)</p>
+                                    </div>
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-4-img-big.jpg"><img src="i/works-4-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Ремонт и реконструкция кафе (СПб)</p>
+                                    </div>
+                                </div>
+                                <div class="v-section">
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-5-img-big.jpg"><img src="i/works-4-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Реконструкция частного дома (Коммунар)</p>
+                                    </div>
+                                    <div class="block-one">
+                                        <div class="block-img">
+                                            <a class="fancybox" rel="work" href="i/works-6-img-big.jpg"><img src="i/works-6-img.jpg" alt="" /></a>
+                                        </div>
+                                        <p>Ремонт и реконструкция кафе (СПб)</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="outside">
+                        <p><span id="slider-next"></span></p>
+                        <p><span id="slider-prev"></span></p>
+                    </div>
+                    <div class="hide">
+                        <a class="fancybox" rel="work" href="i/works-1-img-big.jpg"></a>
+                        <a class="fancybox" rel="work" href="i/works-2-img-big.jpg"></a>
+                        <a class="fancybox" rel="work" href="i/works-3-img-big.jpg"></a>
+                        <a class="fancybox" rel="work" href="i/works-4-img-big.jpg"></a>
+                        <a class="fancybox" rel="work" href="i/works-5-img-big.jpg"></a>
+                        <a class="fancybox" rel="work" href="i/works-6-img-big.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="container">
+            <div class="reviews-wrap wow fadeInUp animated">
+                <div class="reviews-title">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-push-4 col-xs-offset-2">
+                            <h2>Отзывы о нашей работе</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-slider-wrap wow fadeInUp animated">
+                   <ul class="bxslider-fourth">
+                       <li>
+                           <div class="reviews-block">
+                               <div class="reviews-content">
+                                    <div class="reviews-img">
+                                        <img src="i/reviews-slide1.jpg" alt="">
+                                    </div>
+                                    <div class="reviews-info">
+                                        <p>
+                                            Отрадное, ул. Ломоносова, 12 <br> 
+                                            - <a href="#">Загородный коттедж</a> <br>
+                                            Жуков Георгий Константинович <br>
+                                        </p>
+                                        <p>
+                                            О качестве работ подрядчика «Шик» мы услышали от дальних родственников и при планировании собственного жилья, обратились в эту компанию. Работа началась мгновенно. Все этапы тщательно контролировались бригадиром, нам предо-ставлялись отчеты. Через полгода моя семья вселилась в новый дом. Счастью не было предела: каждая комната – отдельный шедевр! Живем здесь уже два года, нареканий нет: дом по-прежнему нов и свеж! Спасибо за воплощение мечты! <br>
+                                            В.Жуков, г.Ломоносов
+                                        </p>
+                                    </div>
+                               </div>
+                           </div>
+                           <div class="reviews-block">
+                               <div class="reviews-content">
+                                    <div class="reviews-img">
+                                        <img src="i/reviews-slide2.jpg" alt="">
+                                    </div>
+                                    <div class="reviews-info">
+                                        <p>
+                                            СПб, ул. Ленинская, 124/18<br> 
+                                            - <a href="#">Деревянный дом</a> <br>
+                                            Корчевой Петр Иванович <br>
+                                        </p>
+                                        <p>
+                                             Два года назад я обратился в компанию "ШиК" и заказал строительство эксклюзив-ного дома по тарифу «Аристократ». Все работы были проведены в сроки, указан-ные в договоре. Теперь живу в идеальном доме: отличная планировка, уютно, красиво, шедеврально. Отдельная благо-дарность дизайнерам, разработавшим интерьер. Чувствую себя царем в собственном замке.<br>
+                                        </p>
+                                    </div>
+                               </div>
+                           </div>
+                           <div class="reviews-block">
+                               <div class="reviews-content">
+                                    <div class="reviews-img">
+                                        <img src="i/reviews-slide3.jpg" alt="">
+                                    </div>
+                                    <div class="reviews-info">
+                                        <p>
+                                            Отрадное, ул. Ленинская, 1<br> 
+                                            - <a href="#">Склад</a> <br>
+                                            Михелис Инна Владимировна<br>
+                                        </p>
+                                        <p>
+                                            Компания-подрядчик "ШиК" занималась строительством будущего жилья моей семьи. Заказывали только строительство «коробки», внутренние работы решили провести собственными силами. Работы были выполнены быстро и качественно. Очень порадовал ответственный подход компании – они действительно ввели в дом все коммуникации (другие подрядчики, как правило, только подводят к дому трубы и электрику, а ввод в здание ложится на плечи заказчика). 
+                                            <br>
+                                        </p>
+                                    </div>
+                               </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="reviews-block">
+                               <div class="reviews-content">
+                                    <div class="reviews-img">
+                                        <img src="i/reviews-slide1.jpg" alt="">
+                                    </div>
+                                    <div class="reviews-info">
+                                        <p>
+                                            Отрадное, ул. Ломоносова, 12 <br> 
+                                            - <a href="#">Загородный коттедж</a> <br>
+                                            Жуков Георгий Константинович <br>
+                                        </p>
+                                        <p>
+                                            О качестве работ подрядчика «Шик» мы услышали от дальних родственников и при планировании собственного жилья, обратились в эту компанию. Работа началась мгновенно. Все этапы тщательно контролировались бригадиром, нам предо-ставлялись отчеты. Через полгода моя семья вселилась в новый дом. Счастью не было предела: каждая комната – отдельный шедевр! Живем здесь уже два года, нареканий нет: дом по-прежнему нов и свеж! Спасибо за воплощение мечты! <br>
+                                            В.Жуков, г.Ломоносов
+                                        </p>
+                                    </div>
+                               </div>
+                           </div>
+                           <div class="reviews-block">
+                               <div class="reviews-content">
+                                    <div class="reviews-img">
+                                        <img src="i/reviews-slide2.jpg" alt="">
+                                    </div>
+                                    <div class="reviews-info">
+                                        <p>
+                                            СПб, ул. Ленинская, 124/18<br> 
+                                            - <a href="#">Деревянный дом</a> <br>
+                                            Корчевой Петр Иванович <br>
+                                        </p>
+                                        <p>
+                                             Два года назад я обратился в компанию "ШиК" и заказал строительство эксклюзив-ного дома по тарифу «Аристократ». Все работы были проведены в сроки, указан-ные в договоре. Теперь живу в идеальном доме: отличная планировка, уютно, красиво, шедеврально. Отдельная благо-дарность дизайнерам, разработавшим интерьер. Чувствую себя царем в собственном замке.<br>
+                                        </p>
+                                    </div>
+                               </div>
+                           </div>
+                           <div class="reviews-block">
+                               <div class="reviews-content">
+                                    <div class="reviews-img">
+                                        <img src="i/reviews-slide3.jpg" alt="">
+                                    </div>
+                                    <div class="reviews-info">
+                                        <p>
+                                            Отрадное, ул. Ленинская, 1<br> 
+                                            - <a href="#">Склад</a> <br>
+                                            Михелис Инна Владимировна<br>
+                                        </p>
+                                        <p>
+                                            Компания-подрядчик "ШиК" занималась строительством будущего жилья моей семьи. Заказывали только строительство «коробки», внутренние работы решили провести собственными силами. Работы были выполнены быстро и качественно. Очень порадовал ответственный подход компании – они действительно ввели в дом все коммуникации (другие подрядчики, как правило, только подводят к дому трубы и электрику, а ввод в здание ложится на плечи заказчика). 
+                                            <br>
+                                        </p>
+                                    </div>
+                               </div>
+                           </div>
+                       </li>
+                   </ul>
+                </div>
+                <div class="routside">
+                    <p><span id="rslider-next" class="wow fadeInUp animated"></span></p>
+                    <p><span id="rslider-prev" class="wow fadeInUp animated"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="last-news">
+        <div class="container">
+            <div class="last-news-wrap wow fadeInUp animated">
+                <div class="last-news-title">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-push-4 col-xs-offset-2">
+                            <h2>Последние новости</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-news-slider-wrap wow fadeInUp animated">
+                    <ul class="bxslider-thrd">
+                        <li>
+                            <div class="l-n-section">
+                                <img src="i/last-news-img1.jpg" alt="">
+                                <div class="l-n-content">
+                                    <a href="#">Совещание с участниками долевого строительства ЖК «Охта-Модер</a>
+                                    <span>03 фев 14</span>
+                                    <p>10 апреля 2014 года в Комитете по строительству состоялось совещание по вопросу завершения строительства многоквартирных домов по адресам...</p>
+                                </div>
+                            </div>
+                            <div class="l-n-section">
+                                <img src="i/last-news-img2.jpg" alt="">
+                                <div class="l-n-content">
+                                    <a href="#">Обновлен прайс-лист на строительные работы</a>
+                                    <span>03 фев 14</span>
+                                    <p>В связи с введением региональных индексов пересчета сметной стоимости строительства для применения с 1.03.14 в нашей фирме проведено обновле...</p>
+                                </div>
+                            </div>
+                            <div class="l-n-section">
+                                <img src="i/last-news-img3.jpg" alt="">
+                                <div class="l-n-content">
+                                    <a href="#">Совещание с участниками долевого строительства ЖК «Охта-Модерн»</a>
+                                    <span>03 фев 14</span>
+                                    <p>10 апреля 2014 года в Комитете по строительству состоялось совещание по вопросу завершения строительства многоквартирных домов по адресам...</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="l-n-section">
+                                <img src="i/last-news-img1.jpg" alt="">
+                                <div class="l-n-content">
+                                    <a href="#">Совещание с участниками долевого строительства ЖК «Охта-Модер</a>
+                                    <span>03 фев 14</span>
+                                    <p>10 апреля 2014 года в Комитете по строительству состоялось совещание по вопросу завершения строительства многоквартирных домов по адресам...</p>
+                                </div>
+                            </div>
+                            <div class="l-n-section">
+                                <img src="i/last-news-img2.jpg" alt="">
+                                <div class="l-n-content">
+                                    <a href="#">Обновлен прайс-лист на строительные работы</a>
+                                    <span>03 фев 14</span>
+                                    <p>В связи с введением региональных индексов пересчета сметной стоимости строительства для применения с 1.03.14 в нашей фирме проведено обновле...</p>
+                                </div>
+                            </div>
+                            <div class="l-n-section">
+                                <img src="i/last-news-img3.jpg" alt="">
+                                <div class="l-n-content">
+                                    <a href="#">Совещание с участниками долевого строительства ЖК «Охта-Модерн»</a>
+                                    <span>03 фев 14</span>
+                                    <p>10 апреля 2014 года в Комитете по строительству состоялось совещание по вопросу завершения строительства многоквартирных домов по адресам...</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="soutside">
+                    <p><span id="sslider-next" class="wow fadeInUp animated"></span></p>
+                    <p><span id="sslider-prev" class="wow fadeInUp animated"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="estimate">
+        <div class="container">
+            <div class="estimate-wrap">
+                <div class="row">
+                    <div class="estimate-info wow fadeInLeft animated">
+                        <div class="col-xs-6">
+                            <h3>Составление сметы <br>и консультация бесплатно!</h3>
+                            <p>Для участия в акции заполните форму заявки он-лайн или просто позвоните нам по телефону 946-61-92 и в ближайшее время получите абсолютно бесплатно подробную смету и консультацию мастера по всем интересующим Вас ремонтным вопросам!</p>
+                            <div class="countdown-block">
+                                <div class="countdown-text">До конца акции <br> осталось:</div>
+                                <div id="countdown5" class='countdown'></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="estimate-form wow fadeInRight animated">
+                        <div class="col-xs-6">
+                            <div class="estimate-form-wrap">
+                                <form class="order-form" action="" method="">
+                                    <div class="order-form-top">
+                                        <h3>Форма заявки</h3><br>
+                                        <p>Ваши данные останутся строго конфиденциальными!</p>
+                                        <div class="form-section">
+                                            <input id="form-name" type="text" value="Ваше имя">
+                                        </div>
+                                        <div class="form-section">
+                                            <input id="form-phone" type="text" value="Ваш телефон">
+                                        </div>
+                                        <div class="form-section">
+                                            <textarea name="text" id="form-comment" placeholder="Комментарий..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="order-form-bottom">
+                                        <a href="#" class="btn">Получить смету и консультацию мастера!</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contacts" class="block-map">
+        <div class="inner-contact">
+            <div class="social">
+                <span>Контакты</span>
+                <a href="#" class="twitter"></a>
+                <a href="#" class="facebook"></a>
+                <a href="#" class="googleplus"></a>
+                <a href="#" class="vkontakte"></a>
+            </div>
+            <div class="adress">
+                <div class="adr-section adr-one">
+                    <p>Адресс</p>
+                    <p>
+                        г. Санкт- Петербург, пос. Янино-1, ул. Новая, дом 2б <br>
+                        Время работы офиса: пн-пт 10:00 - 16:00
+                    </p>
+                </div>
+                <div class="adr-section adr-two">
+                    <p>Телефоны</p>
+                    <p>
+                        946-61-92, 946-61-94 (ежедневно с 10 до 22) <br>   
+                        Контактное лицо: Василий Николаевич Пупкин
+                    </p>
+                </div>
+                <div class="adr-section adr-tree">
+                    <p>Электронный адрес:</p>
+                    <p>
+                        info.shick@mail.ru, strshik@mail.ru <br>
+                        Наш сайт: strshik.ru
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="map"></div>
+    </footer>
+    <div class="custom-modal">
+        <div id="order-call" class="modal fade" aria-labelledby="my-modal-label" role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-order-container">
+                <div class="modal-content">
+                    <div class="modall-body">
+                        <div class="form">
+                            <button class="close" aria-hidden="true" data-dismiss="modal" type="button">
+                                <span class="glyphicon glyphicon-remove-sign"></span>
+                            </button>
+                            <div class="center-block">
+                                <h3>Заказать звонок</h3>
+                                <div class="description">Ваши данные остануться строго конфиденциальными!</div>
+                                <form method="post" id="footer-form">
+                                    <div class="form-group">
+                                        <label class="control-label" for="input-name">Имя</label>
+                                        <input id="input-name" class="form-control order-inputs" type="text" placeholder="Имя" name="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label" for="input-phone">Телефон</label>
+                                        <input id="input-phone" class="form-control order-inputs" type="text" placeholder="Телефон" name="phone">
+                                    </div>
+                                    <input type="hidden" value="Обратный звонок" name="act">
+                                    <div class="form-group">
+                                        <div class="submit-btn">
+                                            <button class="btn btn-success" type="submit">Заказать обратный звонок</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="js/countdown.js" type="text/javascript"></script>
+<!-- <script src="js/wow.min.js" type="text/javascript"></script> -->
+<script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
+<script type="text/javascript">
+    ymaps.ready(init);
+    var myMap,
+        myPlacemark;
+
+    function init(){     
+        myMap = new ymaps.Map ("map", {
+            center: [59.946497,30.551288],
+            zoom: 16
+        });
+
+        myPlacemark = new ymaps.Placemark([59.948179,30.55772], { 
+            hintContent: ' ул. Новая, 26 ', 
+            balloonContent: '' 
+        });
+
+        myMap.geoObjects.add(myPlacemark);
+    }
+</script>
+<script src="js/common.js" type="text/javascript"></script>
+</body>
+</html>
