@@ -1,2 +1,2 @@
 
-http://webvers.cc.ua/shik/index.html
+http://webvers.cc.ua/portfolio/shik/index.html
